@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logo1.png'
+import photo from '../assets/photo.jpg'
 
 const NavBar = () => {
 
@@ -14,7 +15,9 @@ const NavBar = () => {
         <div className='fixed w-full h-[80px] flex justify-between 
     items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
+                <img src={photo} alt="Logo image" 
+                className='w-50 h-50 rounded-full 
+                hover:w-full hover:h-full hover:scale-110 transition-transform duration-300' style={{ width: "50px" }} />
             </div>
             {/* menu */}
             <ul className='hidden md:flex'>
