@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logo1.png'
 import photo from '../assets/photo.jpg'
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
 
@@ -15,17 +16,37 @@ const NavBar = () => {
         <div className='fixed w-full h-[80px] flex justify-between 
     items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <img src={photo} alt="Logo image" 
-                className='w-50 h-50 rounded-full 
+                <img src={photo} alt="Logo image"
+                    className='w-50 h-50 rounded-full 
                 hover:w-full hover:h-full hover:scale-110 transition-transform duration-300' style={{ width: "50px" }} />
             </div>
             {/* menu */}
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>work</li>
-                <li>Contact</li>
+                <li>
+                    <Link to='home' smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to='about' smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link to='skills' smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li>
+                    <Link to='work' smooth={true} duration={500}>
+                        Work
+                    </Link>
+                </li>
+                <li>
+                    <Link to='contact' smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* hamburgure */}
@@ -35,11 +56,31 @@ const NavBar = () => {
 
             {/* mobile menu */}
             <ul className={!toggle ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>About</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>work</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick}  to='home' smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick}  to='about' smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li  className='py-6 text-4xl'>
+                    <Link onClick={handleClick}  to='skills' smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li  className='py-6 text-4xl'>
+                    <Link onClick={handleClick}  to='work' smooth={true} duration={500}>
+                        Work
+                    </Link>
+                </li>
+                <li  className='py-6 text-4xl'>
+                    <Link onClick={handleClick}  to='contact' smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* social icons */}
@@ -48,7 +89,7 @@ const NavBar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between
                 items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between
-                items-center w-full text-gray-300' href="/">
+                items-center w-full text-gray-300' href="https://www.linkedin.com/in/nemi-yunn">
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
@@ -56,14 +97,14 @@ const NavBar = () => {
                 items-center ml-[-100px] hover:ml-[-10px] duration-300
                  bg-[#333333]'>
                         <a className='flex justify-between
-                items-center w-full text-gray-300' href="/">
+                items-center w-full text-gray-300' href="https://github.com/NemiYunn">
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between
                 items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between
-                items-center w-full text-gray-300' href="/">
+                items-center w-full text-gray-300' href="mailto:nethmiyuganjana29@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
