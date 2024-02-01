@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.a15e7a42.css",
-    "main.js": "/MyPortfolio/static/js/main.d715cb0c.js",
-    "static/media/yamove.png": "/MyPortfolio/static/media/yamove.0bf0305739c72aad2650.png",
-    "static/media/php1.png": "/MyPortfolio/static/media/php1.d7c9415b8f28d13a3d79.png",
-    "static/media/photo.jpg": "/MyPortfolio/static/media/photo.d521c830bac535d58b25.jpg",
-    "static/media/react.png": "/MyPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/MyPortfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/MyPortfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/notes.png": "/MyPortfolio/static/media/notes.52152c8345c6f7a2289a.png",
-    "static/media/logo1.png": "/MyPortfolio/static/media/logo1.7ed42caf1761f7568a18.png",
-    "static/media/github.png": "/MyPortfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/MyPortfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/css.png": "/MyPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/tenzies.png": "/MyPortfolio/static/media/tenzies.76d5119f50438a559aba.png",
-    "static/media/auth.png": "/MyPortfolio/static/media/auth.235d08580ba793ffab23.png",
-    "static/media/quizzical.png": "/MyPortfolio/static/media/quizzical.d609e44eba09e254d393.png",
-    "static/media/javascript.png": "/MyPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/MyPortfolio/index.html",
-    "main.a15e7a42.css.map": "/MyPortfolio/static/css/main.a15e7a42.css.map",
-    "main.d715cb0c.js.map": "/MyPortfolio/static/js/main.d715cb0c.js.map"
+    "main.css": "/MyPortfolioWebsite/static/css/main.a15e7a42.css",
+    "main.js": "/MyPortfolioWebsite/static/js/main.0f3f9b57.js",
+    "static/media/yamove.png": "/MyPortfolioWebsite/static/media/yamove.0bf0305739c72aad2650.png",
+    "static/media/php1.png": "/MyPortfolioWebsite/static/media/php1.d7c9415b8f28d13a3d79.png",
+    "static/media/photo.jpg": "/MyPortfolioWebsite/static/media/photo.d521c830bac535d58b25.jpg",
+    "static/media/react.png": "/MyPortfolioWebsite/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/MyPortfolioWebsite/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/MyPortfolioWebsite/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/notes.png": "/MyPortfolioWebsite/static/media/notes.52152c8345c6f7a2289a.png",
+    "static/media/logo1.png": "/MyPortfolioWebsite/static/media/logo1.7ed42caf1761f7568a18.png",
+    "static/media/github.png": "/MyPortfolioWebsite/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/MyPortfolioWebsite/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/MyPortfolioWebsite/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/tenzies.png": "/MyPortfolioWebsite/static/media/tenzies.76d5119f50438a559aba.png",
+    "static/media/auth.png": "/MyPortfolioWebsite/static/media/auth.235d08580ba793ffab23.png",
+    "static/media/quizzical.png": "/MyPortfolioWebsite/static/media/quizzical.d609e44eba09e254d393.png",
+    "static/media/javascript.png": "/MyPortfolioWebsite/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/MyPortfolioWebsite/index.html",
+    "main.a15e7a42.css.map": "/MyPortfolioWebsite/static/css/main.a15e7a42.css.map",
+    "main.0f3f9b57.js.map": "/MyPortfolioWebsite/static/js/main.0f3f9b57.js.map"
   },
   "entrypoints": [
     "static/css/main.a15e7a42.css",
-    "static/js/main.d715cb0c.js"
+    "static/js/main.0f3f9b57.js"
   ]
 }
